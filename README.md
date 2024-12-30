@@ -7,7 +7,7 @@ I took inspiration from [1] whose implementation made me consider there me more 
 
 This CSV data was then processed to remove unnecessary data columns like player nationality and attendance since such statistics have no effect on player performance or are not known before the match. For the matches model, a random forest classifier is used to determine whether a game is won or lost ( as draws are classified into loses in this model) hence making a classifier more appropriate in the case of classifying the result. For the player model, a random forest regressor is used since multiple values are being predicted and are not classifyable values as goals and assists can range in values. The data was then fit to these respective models and a train and test ratio was found to be most effective. 
 
-##Model Performance Results:
+## Model Performance Results:
 Accuracy: 0.648936170212766
 
 Precision: 0.6288815411155837
